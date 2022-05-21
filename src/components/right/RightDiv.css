@@ -1,0 +1,111 @@
+.right {
+    width: 30%;
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right h2 {
+    margin: 0 0 10px 0;
+}
+
+.movie-card-in-list {
+    border: 1px solid #313131;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    transition: 0.2s;
+}
+
+.movie-card-in-list:hover {
+    box-shadow: 0 0 10px #313131;
+}
+
+.right-movie-list {
+    width: 70% !important;
+    justify-content: center;
+    border: none;
+}
+
+.remove-submit {
+    height: 51px;
+    margin: 0;
+    padding: 1rem 1.3rem;
+    border-radius: 0.25rem;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+}
+
+.remove-button {
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 4px 12px;
+    height: 35px;
+    width: 130px;
+    transition: all 0.5s;
+    background: #313131;
+    color: #CA3E47;
+    border: none;
+    transition: 0.4s;
+}
+
+.remove-button:hover,
+.remove-button:active,
+.remove-button:focus {
+    cursor: pointer;
+    background: #242424;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    outline: 0;
+}
+
+
+.card-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-title {
+    font-size: 0.6rem;
+}
+
+.movie-card-in-list h1, p {
+    margin: 5px;
+}
+
+.list-name-bar {
+    width: 100%;
+}
+.create-list-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    height: 27px;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .right {
+        width: 100%;
+    }
+}

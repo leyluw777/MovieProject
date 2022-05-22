@@ -1,16 +1,10 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addToList } from '../../redux/actions/listActions';
 
 const MovieCard = ({movie}) => {
-
     const dispatch = useDispatch();
-    const allMovies = useSelector(state => state.list);
-    const movies = [...allMovies.movies];
-
     const handleAddMovie = (movie) => {
-
-        // const isInCart = movies.find(item => item.movie.imdbID === movie.movie.imdbID);
         dispatch(addToList(movie));
     }
 

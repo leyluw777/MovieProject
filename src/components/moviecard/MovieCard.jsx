@@ -10,7 +10,7 @@ const MovieCard = ({movie}) => {
 
     const handleAddMovie = (movie) => {
 
-        const isInCart = movies.find(item => item.movie.imdbID === movie.movie.imdbID);
+        // const isInCart = movies.find(item => item.movie.imdbID === movie.movie.imdbID);
         dispatch(addToList(movie));
     }
 

@@ -24,9 +24,9 @@ const RightDiv = () => {
         setIsCreated(true);
     }
 
-    const showInfoOnListCreate = () => {
-        setIsCreated(false);
-    }
+    // const showInfoOnListCreate = () => {
+    //     setIsCreated(false);
+    // }
 
     const handleCreateListButton = () => {
 

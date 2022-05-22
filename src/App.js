@@ -23,8 +23,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Container />} />
-        <Route path="/movielist" element={<MovieList />} />
+        <Route path="/" element={ <Container />} />
+        <Route path="/movielist" element={ <MovieList /> } />
       </Routes>
     </div>
   );

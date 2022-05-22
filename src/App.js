@@ -21,10 +21,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Routes> */}
+      {/* <Routes>
         <Route exact path="/MovieProject" element={ <Container />} />
         <Route path="/movielist" element={ <MovieList /> } />
-      {/* </Routes> */}
+      </Routes> */}
+
+      <Container />
+      <MovieList />
 
     </div>
   );

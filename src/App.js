@@ -21,14 +21,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Routes>
-        <Route exact path="/MovieProject" element={ <Container />} />
+      <Routes>
+        <Route path="/Movie-Project" element={ <Container />} />
         <Route path="/movielist" element={ <MovieList /> } />
-      </Routes> */}
+      </Routes>
 
-      <Container />
-      <MovieList />
-
+  
     </div>
   );
 }
